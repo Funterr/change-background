@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+ 
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+        }
+        .father {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .nave {
+             display: flex;  
+            
+            font-size: 30px;
+           
+        }
+        .manu{
+            display: flex;
+            flex-grow: 4;
+            list-style: none;
+            gap: 30px;
+            justify-content: flex-end;
+           
+        }
+        .child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 4;
+            gap: 20px;
+            padding-bottom: 50px;
+        }
+        .heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            gap: 10px;
+        }
+
+        .para {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-weight: 800px;
+           
+        }
+
+        .manu {
+            flex-grow: 2;
+
+
+        }
+
+        button{
+            background-color: darkcyan;
+            cursor: pointer;
+            border-radius: 40px;
+            font-size: 17px;
+            margin: 10px;
+            height: 30px;
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+        button p{
+            font-weight: 500;
+        }
+
+        .bt {
+
+            text-align: center;
+
+        }
+
+        .child {
+            display: flex;
+            flex-grow: 4;
+        }
+
+        body {
+            background: url(./bgc\ pic\ 2.jpg) no-repeat;
+            background-size:cover;
+            background-position: center;
+
+        }
+
+        button:hover {
+            background: transparent;
+            color: white;
+            transition: 400ms ease-in-out;
+        }
+    </style>
+
+
+</head>
+
+<body background="./bgc pic.jpeg">
+    <div class="main">
+
+        <div class="father">
+            <div class="nave">!NTERIOR</div>
+            <ul class="manu">
+                    <li>HOME</li>
+                    <li>BADROOM</li>
+                    <li>DINING</li>
+                    <li>KITCHEN</li>
+                    <li>BACKYARD</li>
+            </ul>
+        </div>
+
+        <div class="child">
+            <div class="heading">
+                <h1>DESINE YOUR HOUSE </h1>
+                <!-- <br> -->
+                <P class="para">Subscribe Web Code Joumey Youtube Channel to watch more videos, <br>
+                press the bell icon to get latest updates.</P>
+            </div>
+            <div class="child1">
+                <div class="bt">
+                    <button><p>Watch More</p></button>
+                    <button><p>SUBSCRIBE</p></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>`
